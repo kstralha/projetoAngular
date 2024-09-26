@@ -1,0 +1,21 @@
+h2 {
+    color: deeppink;
+    text-align: center;
+  }
+  
+  .end {
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  .num  {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .obj {
+    font-size: 21px;
+    font-weight: bold;
+  }

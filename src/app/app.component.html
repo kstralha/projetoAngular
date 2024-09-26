@@ -1,0 +1,26 @@
+<h2>Pedro Cavalheiro</h2>
+<p>20 anos, solteiro</p>
+<p>Utinga, Santo André</p>
+<p class="end">pedro.tcavalheiro$#64;gmail.com</p>
+<p class="num">Contato: (11)99513-1089</p>
+
+<p class="obj">Objetivo: Estágio T.I/Dev</p>
+
+<hr />
+<app-item-teste> </app-item-teste>
+<hr />
+
+<br /><br />
+<ul>
+  <li *ngFor="let item of itens">{{ item }}</li>
+</ul>
+
+<h1> Entendendo o Menu</h1>
+<button mat-button [matMenuTriggerFor]="menu" >Selecione a página</button>
+<mat-menu #menu="matMenu">
+<button mat-menu-item routerLink="/teste" routerLinkActive="active">Teste </button>
+<button mat-menu-item routerLink="/conecta" routerLinkActive="active">Output</button>
+<button mat-menu-item routerLink="/" routerLinkActive="active">Início</button>
+</mat-menu>
+<router-outlet></router-outlet>
+
